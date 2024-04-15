@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Daily Goals",
+    "slug": "Daily-Goals",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/app_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#004063"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app_adaptive.png",
+        "backgroundColor": "#004063"
+      },
+      "package": "com.DailyGoals"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f11cbbc9-d754-4307-87bf-d19d34d16ed3"
+      }
+    }
+  }
+}
